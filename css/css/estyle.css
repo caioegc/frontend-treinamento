@@ -1,9 +1,27 @@
- body{
-            background-color: yellow;
-        }
 
-h1{
-            color: blue;
-            font-size: 88px;
+*{
+    font-style: italic;
+}
+body{
+    background-color: antiquewhite;
+}
 
-        }
+.center{
+    text-align: center;
+}
+
+.fonte-30{
+    font-size: 30px;
+}
+
+
+h2, p{
+    color: blueviolet;
+    font-size: 15px;
+    text-align: center;
+}
+
+#primeiro{
+    color: black;
+    padding: 10px;
+}
