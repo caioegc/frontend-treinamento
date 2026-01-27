@@ -9,6 +9,10 @@ h1{
     color: #4287f5;
     text-align: center;
     background-color: #f542d7;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 30px;
 }
 
 h2{
@@ -24,10 +28,33 @@ p{
 }
 
 .backgorundTeste{
-    min-height: 60vh;
+    min-height: 200px;
     background-color: black;
     background-image: url(../img/cidade.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 50px;
+}
+
+.botao{
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.teste{
+    color: red;
+    height: 300px;
+    width: 800px;
+    max-width: 1000px;
+    background-color: black;
 }
