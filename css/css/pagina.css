@@ -4,7 +4,7 @@
 .titulo{
     color: white;
     text-align: center;
-    border: solid 3px black;
+    border: solid 1px black;
     border-radius: 10px;
     margin-bottom: 20px;
     padding-left: 50px;
@@ -21,7 +21,7 @@ p{
 }
 
 .container{
-    border: solid black 5px ;
+    border: solid black 1px ;
     overflow: auto;
 }
 
@@ -41,17 +41,47 @@ li{
     display: inline-block;
 }
 
-li a{
+li a, .dropbtn{
     color: white;
     text-decoration: none;
     padding: 20px;
-    
 
 }
 
-li a:hover{
+li a:hover, .dropdown:hover .dropbtn:hover{
     background: #ccc ;
     color: black;
+}
+
+li.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: black;
+    width: 150px;
+    top: 100%;      
+    margin-top: 20px; 
+     z-index: 1000;
+}
+
+.dropdown-content a{
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover{
+display: block;
+text-align: left;
+color: black;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 .login{
@@ -59,4 +89,34 @@ li a:hover{
 }
 .login a:hover{
     background: orangered 
+}
+
+.div-das-imagens{
+    margin-top: 20px;
+}
+
+
+.img1:hover{
+opacity: 0.4;
+}
+
+.img2:hover{
+opacity: 0.6;
+}
+
+.img3:hover{
+opacity: 0.9;
+}
+
+a.botao{
+    
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+a.botao:hover{
+    opacity: 0.5;
 }
