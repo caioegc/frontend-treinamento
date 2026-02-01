@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.cabeça{
+    text-align: center;
+    padding: 50px;
+    background: rgb(5, 156, 30);
+    color: white;
+    width: 100%;
+}
+
+.navbar{
+display: flex;
+justify-content: center;
+background: black;
+}
+
+.navbar a{
+    color:  white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    color:  black;
+    background: white;
+}
+
+
