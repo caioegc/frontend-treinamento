@@ -1,9 +1,33 @@
- body{
-            background-color: yellow;
-        }
+body{
+    background-color: antiquewhite;
+
+}
 
 h1{
-            color: blue;
-            font-size: 88px;
+    border: solid black;
+    border-radius: 10px;
+    color: #4287f5;
+    text-align: center;
+    background-color: #f542d7;
+}
 
-        }
+h2{
+    border-left: solid 5px red;
+    border-right: 5px brown;
+    border-top: solid 5px yellow;
+    border-bottom: solid 5px green;
+
+    color: #4287f5;
+}
+p{
+    color: #f542d7
+}
+
+.backgorundTeste{
+    min-height: 60vh;
+    background-color: black;
+    background-image: url(../img/cidade.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
