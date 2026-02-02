@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+font-family: 'Montserrat', sans-serif;
+box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    margin-top: auto;
+    /* height: 200px; */
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.menu{
+    margin: 0 15px;
+     
+}
+
+.menu:hover{
+    border-top: 4px  rgb(248, 96, 121) 
+}
+
+.menu a {
+    font-weight: 500;
+}
+
+.menu a:hover {
+    font-weight: 500;
+    color: rgb(248, 96, 121) ;
+    border-top: 4px solid  #180F4A; 
+
+}
+
+div a {
+    color: #180F4A; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+
+
+.logo{
+    color: #180F4A; 
+    padding: 30px;
+    font-weight: bold;
+    font-size: 34px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-right: auto;
+
+
+
+}
+
+.cta {
+    margin-left: 100px;
+    padding: 15px;
+    background-color: #180F4A; 
+    border-radius: 10px;
+    margin-right: 10%;
+}
+
+.cta:hover {
+    background-color: rgb(248, 96, 121);
+     color: black
+}
+
+.cta a {
+    color: white;
+    font-size: 20px;;
+
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    padding: 100px 80px;  
+    padding-top: 100px;  
+}
+
+.imagem{
+    margin-top: 0;
+   margin-left: auto;
+}
+
+.texto{
+    color: white;
+}
+
+.chamada{
+    letter-spacing: 10px;
+     color: #180F4A; 
+     font-weight: bold;
+}
+.titulo{
+    font-size: 80px;
+    color:  #180F4A; 
+    font-weight: bold;
+}
+
+.paragrafo{
+    max-width: 600px;
+    color: gray;
+    font-size: 12px;
+}
+.botao{
+    display: inline-block;
+padding: 20px;
+background-color: rgb(248, 96, 121);
+color: white;
+border-radius: 5px;
+}
+
+.botao:hover{
+background-color:#180F4A;
+}
+
+
+section{
+    display: flex;
+    flex-direction:column;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.caio{
+    display: flex;
+    /* border: 2px solid red; */
+    color: #180F4A;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card1{
+    border: 1px solid rgb(248, 96, 121);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: 300px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card1:hover{
+    background-color: rgb(248, 96, 121);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+footer{
+    margin-top: 100px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid rgb(248, 96, 121);
+}
+
+.rodape{
+    padding: 100px;
+}
+
+.agencia{
+    color: white;
+}
+.whats{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 60px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    nav {
+        padding: 10px 20px;
+        flex-wrap: wrap; 
+    }
+    
+    .logo {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+    
+    .menu {
+        display: none; 
+    }
+
+    .cta {
+        margin-left: auto; 
+        padding: 8px 15px;
+    }
+
+    .cta a {
+        font-size: 14px;
+    }
+
+    header {
+        flex-direction: column-reverse;
+        padding: 120px 20px 50px 20px; 
+        text-align: center;
+    }
+
+    .titulo {
+        font-size: 36px; 
+    }
+
+    .paragrafo {
+        font-size: 14px;
+        margin: 0 auto 30px auto; 
+    }
+
+    .imagem img {
+        max-width: 80%; 
+        margin-bottom: 30px;
+    }
+
+    .caio {
+        font-size: 26px;
+    }
+    
+    .card1 {
+        width: 100%; 
+        max-width: 350px;
+    }
+}

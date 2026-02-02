@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1{
+    text-shadow: 2px 2px 4px blue;
+}
+
+.multipla{
+    color: black;
+    text-shadow: 0 0 3px #FF0000, 2px 2px 5px yellow;
+}
+
+.branco{
+    color: white;
+    text-shadow: 2px 2px 4px black
+}
+
+.caixa{
+    margin-top: 40px;
+    background: white;
+    width: 40%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.reduzido{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.caixa:hover .reduzido{
+    white-space: normal;
+}
+
+/* body{
+     min-height: 100vh;
+    background-image: linear-gradient(#6a11cb, #2575fc);
+} */
+
+.titulo{
+    color: white;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Google Sans", sans-serif;
+
+    background-color: black;
+}
+
+p{
+    font-family: "Google Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    border: solid black 1px ;
+    overflow: auto;
+}
+
+.container img{
+     float:left; /* define onde ficaria a imagem/texto */
+    margin-right: 15px;
+
+}
+
+ul{
+    background: black;
+    padding: 20px;
+
+}
+
+li{
+    display: inline-block;
+}
+
+li a, .dropbtn{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn:hover{
+    background: #ccc ;
+    color: black;
+}
+
+li.dropdown{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: black;
+    width: 150px;
+    top: 100%;      
+    margin-top: 20px; 
+     z-index: 1000;
+}
+
+.dropdown-content a{
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover{
+display: block;
+text-align: left;
+color: black;
+}
+
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.login{
+    float: right;
+}
+.login a:hover{
+    background: orangered 
+}
+
+.div-das-imagens{
+    margin-top: 20px;
+}
+
+
+.img1:hover{
+opacity: 0.4;
+}
+
+.img2:hover{
+opacity: 0.6;
+}
+
+.img3:hover{
+opacity: 0.9;
+}
+
+a.botao{
+    
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+a.botao:hover{
+    opacity: 0.5;
+}
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    body{
+        background: blue;
+    }
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+    body{
+        background: red;
+    }}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+    body{
+        background: yellow;
+    }
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+    body{
+        background: orange;
+    }
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background: pink;
+    }
+}
